@@ -23,6 +23,7 @@
  * 
  */
 
+// array of object literals with data inside of them is depicted below
 const books = [
     {
         id: 1237398,
