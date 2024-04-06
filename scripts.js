@@ -34,7 +34,8 @@ const books = [
         format: "Paperback",
         pages: 207,
         publicationYear: 2003,
-        originalPublicationYear: 1997
+        originalPublicationYear: 1997,
+        imgUrl: "https://m.media-amazon.com/images/I/71y+XnBXm4L._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 15839976,
@@ -45,7 +46,8 @@ const books = [
         format: "Hardcover",
         pages: 382,
         publicationYear: 2014,
-        originalPublicationYear: 2014
+        originalPublicationYear: 2014,
+        imgUrl: "https://m.media-amazon.com/images/I/81tZufOGaZL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 6514,
@@ -57,7 +59,8 @@ const books = [
         pages: 294,
         publicationYear: 2006,
         originalPublicationYear: 1963,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF350,350_QL50_.jpg"
     },
     {
         id: 58784475,
@@ -69,7 +72,8 @@ const books = [
         pages: 401,
         publicationYear: 2022,
         originalPublicationYear: 2022,
-        dateRead: "4/6/24"
+        dateRead: "4/6/24",
+        imgUrl: "https://m.media-amazon.com/images/I/91VcwLdcNHL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 53568397,
@@ -81,7 +85,8 @@ const books = [
         pages: 289,
         publicationYear: 2020,
         originalPublicationYear: 2020,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/71ls-I6A5KL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 58655861,
@@ -92,7 +97,8 @@ const books = [
         format: "Kindle Edition",
         pages: 0,
         publicationYear: 2021,
-        originalPublicationYear: 1959
+        originalPublicationYear: 1959,
+        imgUrl: "https://m.media-amazon.com/images/I/61nTspM+BYL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 32620332,
@@ -104,7 +110,8 @@ const books = [
         pages: 389,
         publicationYear: 2017,
         originalPublicationYear: 2017,
-        dateRead: "3/10/22"
+        dateRead: "3/10/22",
+        imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 84981,
@@ -116,7 +123,8 @@ const books = [
         pages: 148,
         publicationYear: 1985,
         originalPublicationYear: 1975,
-        dateRead: "3/9/22"
+        dateRead: "3/9/22",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/en/1/1d/TuckEverlasting.jpg"
     },
     {
         id: 133518,
@@ -128,7 +136,8 @@ const books = [
         pages: 246,
         publicationYear: 1998,
         originalPublicationYear: 1990,
-        dateRead: "3/9/22"
+        dateRead: "3/9/22",
+        imgUrl: "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 40940121,
@@ -140,7 +149,8 @@ const books = [
         pages: 190,
         publicationYear: 2009,
         originalPublicationYear: 1977,
-        dateRead: "3/9/22"
+        dateRead: "3/9/22",
+        imgUrl: "https://m.media-amazon.com/images/I/811n3tkxhPL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 18079719,
@@ -152,7 +162,8 @@ const books = [
         pages: 388,
         publicationYear: 2014,
         originalPublicationYear: 2014,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/61wUv6fkRPL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 331920,
@@ -164,7 +175,8 @@ const books = [
         pages: 212,
         publicationYear: 2003,
         originalPublicationYear: 2001,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/51Hzxs85pTL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 233818,
@@ -176,7 +188,8 @@ const books = [
         pages: 184,
         publicationYear: 1971,
         originalPublicationYear: 1960,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/81gSvYPU0xL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 50,
@@ -188,7 +201,8 @@ const books = [
         pages: 208,
         publicationYear: 2000,
         originalPublicationYear: 1987,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/81TZunL8kQL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 13079982,
@@ -200,7 +214,8 @@ const books = [
         pages: 194,
         publicationYear: 2011,
         originalPublicationYear: 1953,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 3636,
@@ -212,7 +227,8 @@ const books = [
         pages: 208,
         publicationYear: 2006,
         originalPublicationYear: 1993,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/81cJChEQjSL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 22055262,
@@ -224,7 +240,8 @@ const books = [
         pages: 400,
         publicationYear: 2015,
         originalPublicationYear: 2015,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/81Zd2d+NMZL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 890,
@@ -236,7 +253,8 @@ const books = [
         pages: 107,
         publicationYear: 2002,
         originalPublicationYear: 1937,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg"
     },
     {
         id: 40961427,
@@ -248,7 +266,8 @@ const books = [
         pages: 298,
         publicationYear: 2013,
         originalPublicationYear: 1949,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZOB8G9WhHl2MjHjktqreA5NENS2vsoCJesh8lcjB_w&s"
     },
     {
         id: 4671,
@@ -260,7 +279,8 @@ const books = [
         pages: 180,
         publicationYear: 1925,
         originalPublicationYear: 1925,
-        dateRead: "3/8/22"
+        dateRead: "3/8/22",
+        imgUrl: "https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg"
     },
     {
         id: 12000020,
@@ -272,7 +292,8 @@ const books = [
         pages: 390,
         publicationYear: 2012,
         originalPublicationYear: 2012,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665955751/aristotle-and-dante-discover-the-secrets-of-the-universe-9781665955751_hr.jpg"
     },
     {
         id: 32571395,
@@ -284,7 +305,8 @@ const books = [
         pages: 360,
         publicationYear: 2017,
         originalPublicationYear: 2017,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/914W0VECGCL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 33385229,
@@ -296,7 +318,8 @@ const books = [
         pages: 389,
         publicationYear: 2017,
         originalPublicationYear: 2017,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/81D-gdnku+L._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 23677341,
@@ -308,7 +331,8 @@ const books = [
         pages: 455,
         publicationYear: 2016,
         originalPublicationYear: 2016,
-        dateRead: "3/26/19"
+        dateRead: "3/26/19",
+        imgUrl: "https://shaundavidhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg"
     },
     {
         id: 37570546,
@@ -320,7 +344,8 @@ const books = [
         pages: 415,
         publicationYear: 2019,
         originalPublicationYear: 2019,
-        dateRead: "1/1/22"
+        dateRead: "1/1/22",
+        imgUrl: "https://m.media-amazon.com/images/I/71r0hQEoWIL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 9361589,
@@ -332,7 +357,8 @@ const books = [
         pages: 506,
         publicationYear: 2011,
         originalPublicationYear: 2011,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 11337018,
@@ -344,7 +370,8 @@ const books = [
         pages: 387,
         publicationYear: 2011,
         originalPublicationYear: 2011,
-        dateRead: "4/17/19"
+        dateRead: "4/17/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 32075671,
@@ -356,7 +383,8 @@ const books = [
         pages: 454,
         publicationYear: 2017,
         originalPublicationYear: 2017,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71DZv5+s67L._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 929,
@@ -368,7 +396,8 @@ const books = [
         pages: 503,
         publicationYear: 2005,
         originalPublicationYear: 1997,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61zpjN+tjVL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 7624,
@@ -380,7 +409,8 @@ const books = [
         pages: 182,
         publicationYear: 1999,
         originalPublicationYear: 1954,
-        dateRead: "1/1/19"
+        dateRead: "1/1/19",
+        imgUrl: "https://m.media-amazon.com/images/I/81WUAoL-wFL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 38447,
@@ -392,7 +422,8 @@ const books = [
         pages: 311,
         publicationYear: 1998,
         originalPublicationYear: 1985,
-        dateRead: "1/1/19"
+        dateRead: "1/1/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 22557272,
@@ -404,7 +435,8 @@ const books = [
         pages: 336,
         publicationYear: 2015,
         originalPublicationYear: 2015,
-        dateRead: "1/1/19"
+        dateRead: "1/1/19",
+        imgUrl: "https://m.media-amazon.com/images/I/41t6xrKxxPL._SY445_SX342_.jpg"
     },
     {
         id: 7735333,
@@ -416,7 +448,8 @@ const books = [
         pages: 369,
         publicationYear: 2010,
         originalPublicationYear: 2010,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Matched.jpg/220px-Matched.jpg"
     },
     {
         id: 15745753,
@@ -428,7 +461,8 @@ const books = [
         pages: 328,
         publicationYear: 2013,
         originalPublicationYear: 2012,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 13335037,
@@ -440,7 +474,8 @@ const books = [
         pages: 487,
         publicationYear: 2012,
         originalPublicationYear: 2011,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/91oNu+R7EUL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 2767052,
@@ -452,7 +487,8 @@ const books = [
         pages: 374,
         publicationYear: 2008,
         originalPublicationYear: 2008,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 41865,
@@ -464,7 +500,8 @@ const books = [
         pages: 498,
         publicationYear: 2006,
         originalPublicationYear: 2005,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 13262783,
@@ -476,7 +513,8 @@ const books = [
         pages: 322,
         publicationYear: 2012,
         originalPublicationYear: 2012,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/81f3kki57fL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 16085481,
@@ -488,7 +526,8 @@ const books = [
         pages: 403,
         publicationYear: 2013,
         originalPublicationYear: 2013,
-        dateRead: "1/1/19"
+        dateRead: "1/1/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71qzZ9tf+AL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 17347634,
@@ -500,7 +539,8 @@ const books = [
         pages: 369,
         publicationYear: 2013,
         originalPublicationYear: 2012,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61Ax4eSeTDL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 6442769,
@@ -512,7 +552,8 @@ const books = [
         pages: 305,
         publicationYear: 2009,
         originalPublicationYear: 2008,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/81WBJQUEFsL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 398635,
@@ -524,7 +565,8 @@ const books = [
         pages: 324,
         publicationYear: 2006,
         originalPublicationYear: 1960,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 5129,
@@ -536,7 +578,8 @@ const books = [
         pages: 759,
         publicationYear: 2007,
         originalPublicationYear: 2007,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71Q1Iu4suSL._AC_UF894,1000_QL80_.jpg"
     },
     {
         id: 2429135,
@@ -548,7 +591,8 @@ const books = [
         pages: 652,
         publicationYear: 2005,
         originalPublicationYear: 2005,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg"
     },
     {
         id: 28187,
@@ -560,7 +604,8 @@ const books = [
         pages: 870,
         publicationYear: 2003,
         originalPublicationYear: 2003,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/51190vnHUhL._AC_.jpg"
     },
     {
         id: 3625,
@@ -572,7 +617,8 @@ const books = [
         pages: 734,
         publicationYear: 2000,
         originalPublicationYear: 2000,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71ykU-RQ0nL._AC_UF894,1000_QL80_.jpg"
     },
     {
         id: 2,
@@ -584,66 +630,92 @@ const books = [
         pages: 309,
         publicationYear: 1999,
         originalPublicationYear: 1997,
-        dateRead: "3/11/19"
+        dateRead: "3/11/19",
+        imgUrl: "https://m.media-amazon.com/images/I/71-++hbbERL._AC_UF894,1000_QL80_.jpg"
     }
 ];
+/*
+// Function to display books on the webpage
+function displayBooks() {
+    const bookContainer = document.getElementById("book-container");
 
-console.log(books);
+    // Loop through each book object in the array
+    books.forEach((book) => {
 
+        const bookCard = document.createElement("div");
+        bookCard.classList.add("book-card");
+
+        const titleElement = document.createElement("h2");
+        titleElement.textContent = book.title;
+
+        const authorElement = document.createElement("p");
+        authorElement.textContent = "Author: " + book.author;
+
+        const ratingElement = document.createElement("p");
+        ratingElement.textContent = "Rating: " + book.rating;
+
+        const publisherElement = document.createElement("p");
+        publisherElement.textContent = "Publisher: " + book.publisher;
+
+        const formatElement = document.createElement("p");
+        formatElement.textContent = "Format: " + book.format;
+
+        const pagesElement = document.createElement("p");
+        pagesElement.textContent = "Pages: " + book.pages;
+
+        // Append elements to the book card
+        bookCard.appendChild(titleElement);
+        bookCard.appendChild(authorElement);
+        bookCard.appendChild(ratingElement);
+        bookCard.appendChild(publisherElement);
+        bookCard.appendChild(formatElement);
+        bookCard.appendChild(pagesElement);
+
+        // Append book card to the container
+        bookContainer.appendChild(bookCard);
+    });
+}
+
+// Call the displayBooks function when the DOM content is loaded
+document.addEventListener("DOMContentLoaded", displayBooks);
+*/
+
+/*
 const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
 const CURB_POSTER_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
 const EAST_LOS_HIGH_POSTER_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
+*/
 
-// This is an array of strings (TV show titles)
-let titles = [
-    "Fresh Prince of Bel Air",
-    "Curb Your Enthusiasm",
-    "East Los High"
-];
-// Your final submission should have much more data than this, and 
-// you should use more than just an array of strings to store it all.
-
-
-// This function adds cards the page to display the data in the array
+// This function adds cards the page to display the data in the array of objects (books!)
 function showCards() {
     const cardContainer = document.getElementById("card-container");
     cardContainer.innerHTML = "";
     const templateCard = document.querySelector(".card");
-    
-    for (let i = 0; i < titles.length; i++) {
-        let title = titles[i];
 
-        // This part of the code doesn't scale very well! After you add your
-        // own data, you'll need to do something totally different here.
-        let imageURL = "";
-        if (i == 0) {
-            imageURL = FRESH_PRINCE_URL;
-        } else if (i == 1) {
-            imageURL = CURB_POSTER_URL;
-        } else if (i == 2) {
-            imageURL = EAST_LOS_HIGH_POSTER_URL;
-        }
-
+    for (let i = 0; i < books.length; i++) { //iterates through books array
+        const book = books[i];
+        const bookImage = document.createElement("img");
+        bookImage.src = book.url;
         const nextCard = templateCard.cloneNode(true); // Copy the template card
-        editCardContent(nextCard, title, imageURL); // Edit title and image
+        editCardContent(nextCard, book, bookImage); // Edit title and image
         cardContainer.appendChild(nextCard); // Add new card to the container
     }
 }
 
-function editCardContent(card, newTitle, newImageURL) {
+function editCardContent(card, newBook, newImageURL) {
     card.style.display = "block";
 
     const cardHeader = card.querySelector("h2");
-    cardHeader.textContent = newTitle;
+    cardHeader.textContent = newBook;
 
     const cardImage = card.querySelector("img");
     cardImage.src = newImageURL;
-    cardImage.alt = newTitle + " Poster";
+    cardImage.alt = newBook + " Cover";
 
     // You can use console.log to help you debug!
     // View the output by right clicking on your website,
     // select "Inspect", then click on the "Console" tab
-    console.log("new card:", newTitle, "- html: ", card);
+    console.log("new card:", newBook, "- html: ", card);
 }
 
 // This calls the addCards() function when the page is first loaded
