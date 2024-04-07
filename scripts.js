@@ -51,11 +51,6 @@ function editCardContent(card, newBook) {
 // Calls the addCards() function when the page is first loaded
 document.addEventListener("DOMContentLoaded", showCards);
 
-function quoteAlert() {
-    console.log("Button Clicked!")
-    alert("I guess I can kiss heaven goodbye, because it got to be a sin to look this good!");
-}
-
 function removeLastCard() {
     if (books.length === 0) {
         alert("No more cards left to delete!")
@@ -109,6 +104,13 @@ function numericalSort(property){
     }
 }
 
+function randomQuoteGenerator() {
+    const randomIndex = Math.floor(Math.random() * quotes.length); //generate random index, round down to make it a whole num
+    const randoQuote = quotes[randomIndex];
+    const message = `"${randoQuote.quote}" - ${randoQuote.author}`;
+    alert(message);
+}
+
 //event Listener sections! allows buttons to work!
 document.getElementById("sort-by-author-btn").addEventListener("click", sortByAuthor);
 document.getElementById("sort-by-avg-btn").addEventListener("click", sortByAvgRating);
@@ -116,4 +118,5 @@ document.getElementById("sort-by-opinion-btn").addEventListener("click", sortByP
 document.getElementById("sort-by-pub-year").addEventListener("click", sortByPubYear);
 document.getElementById("sort-by-title").addEventListener("click", sortByTitle);
 document.getElementById("card-popper").addEventListener("click", removeLastCard);
+document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
 
