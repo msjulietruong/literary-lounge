@@ -59,13 +59,9 @@ function removeLastCard() {
     showCards(); // Call showCards again to refresh
 }
 
-function sortByAuthor(){
-    books.sort(alphabeticalSort("author"));
-    showCards();
-}
-
-function sortByTitle(){
-    books.sort(alphabeticalSort("title"));
+//sort function that passes property in alongside calling which function to work (based on if its a string or number)
+function sortCoordinator(property, sortFunction) {
+    books.sort(sortFunction(property));
     showCards();
 }
 
@@ -82,27 +78,13 @@ function alphabeticalSort(property) {
     }
 }
 
-function sortByAvgRating(){
-    books.sort(numericalSort("rating"));
-    showCards();
-}
-
-function sortByPersonalOpinion() {
-    books.sort(numericalSort("opinion"));
-    showCards();
-}
-
-function sortByPubYear(){
-    books.sort(numericalSort("publicationYear"));
-    showCards();
-}
-
 //function that returns a number's properties in ascending order
 function numericalSort(property){
     return function(a, b) {
         return a[property] - b[property];
     }
 }
+
 
 function randomQuoteGenerator() {
     const randomIndex = Math.floor(Math.random() * quotes.length); //generate random index, round down to make it a whole num
@@ -112,11 +94,25 @@ function randomQuoteGenerator() {
 }
 
 //event Listener sections! allows buttons to work!
-document.getElementById("sort-by-author-btn").addEventListener("click", sortByAuthor);
-document.getElementById("sort-by-avg-btn").addEventListener("click", sortByAvgRating);
-document.getElementById("sort-by-opinion-btn").addEventListener("click", sortByPersonalOpinion);
-document.getElementById("sort-by-pub-year").addEventListener("click", sortByPubYear);
-document.getElementById("sort-by-title").addEventListener("click", sortByTitle);
+document.getElementById("sort-by-author-btn").addEventListener("click", function() {
+    sortCoordinator("author", alphabeticalSort);
+});
+
+document.getElementById("sort-by-avg-btn").addEventListener("click", function() {
+    sortCoordinator("rating", numericalSort);
+});
+
+document.getElementById("sort-by-opinion-btn").addEventListener("click", function() {
+    sortCoordinator("opinion", numericalSort);
+});
+
+document.getElementById("sort-by-pub-year").addEventListener("click", function() {
+    sortCoordinator("publicationYear", numericalSort);
+});
+
+document.getElementById("sort-by-title").addEventListener("click", function() {
+    sortCoordinator("title", alphabeticalSort);
+});
+
 document.getElementById("card-popper").addEventListener("click", removeLastCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
-
