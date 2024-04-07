@@ -5,25 +5,11 @@
  * also make changes to the HTML and CSS files, but we want you to prioritize
  * demonstrating your understanding of data structures, and you'll do that
  * with the JavaScript code you write in this file.
- * 
- * The comments in this file are only to help you learn how the starter code
- * works. The instructions for the project are in the README. That said, here
- * are the three things you should do first to learn about the starter code:
- * - 1 - Change something small in index.html or style.css, then reload your 
- *    browser and make sure you can see that change. 
- * - 2 - On your browser, right click anywhere on the page and select
- *    "Inspect" to open the browser developer tools. Then, go to the "console"
- *    tab in the new window that opened up. This console is where you will see
- *    JavaScript errors and logs, which is extremely helpful for debugging.
- *    (These instructions assume you're using Chrome, opening developer tools
- *    may be different on other browsers. We suggest using Chrome.)
- * - 3 - Add another string to the titles array a few lines down. Reload your
- *    browser and observe what happens. You should see a fourth "card" appear
- *    with the string you added to the array, but a broken image.
- * 
+ *
  */
 
 import books from "./books.js";
+import quotes from "./quotes.js";
 
 // This function adds cards the page to display the data in the array of objects (books!)
 function showCards() {
@@ -71,13 +57,16 @@ function quoteAlert() {
 }
 
 function removeLastCard() {
+    if (books.length === 0) {
+        alert("No more cards left to delete!")
+    }
     books.pop(); // Remove last item in books array
     showCards(); // Call showCards again to refresh
 }
 
 function sortByAuthor(){
     books.sort(alphabeticalSort("author"));
-    showCards(); // Call your function to update the display after sorting
+    showCards();
 }
 
 function sortByTitle(){
@@ -85,7 +74,7 @@ function sortByTitle(){
     showCards();
 }
 
-//function that returns strings properties in alphabetical order (asc)
+//function that returns a string's properties in alphabetical order (asc)
 function alphabeticalSort(property) {
     return function (a, b) {
         if (a[property].toLowerCase() < b[property].toLowerCase()) {
@@ -113,16 +102,18 @@ function sortByPubYear(){
     showCards();
 }
 
-//function that returns number properties in numerical order (asc)
+//function that returns a number's properties in ascending order
 function numericalSort(property){
     return function(a, b) {
         return a[property] - b[property];
     }
 }
 
+//event Listener sections! allows buttons to work!
 document.getElementById("sort-by-author-btn").addEventListener("click", sortByAuthor);
 document.getElementById("sort-by-avg-btn").addEventListener("click", sortByAvgRating);
 document.getElementById("sort-by-opinion-btn").addEventListener("click", sortByPersonalOpinion);
 document.getElementById("sort-by-pub-year").addEventListener("click", sortByPubYear);
 document.getElementById("sort-by-title").addEventListener("click", sortByTitle);
+document.getElementById("card-popper").addEventListener("click", removeLastCard);
 
