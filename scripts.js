@@ -31,6 +31,7 @@ function showCards() {
         }
     }
 }
+
 function editCardContent(card, newBook) {
     card.style.display = "block";
 
@@ -59,23 +60,17 @@ function removeLastCard() {
     showCards(); // Call showCards again to refresh
 }
 
-//sort function that passes property in alongside calling which function to work (based on if its a string or number)
+//sort function that passes property in alongside calling which function to work (based on if it is a string or number)
 function sortCoordinator(property, sortFunction) {
     books.sort(sortFunction(property));
     showCards();
 }
 
-//function that returns a string's properties in alphabetical order (asc)
+//function that returns a string's properties in alphabetical order, used tertiary op
 function alphabeticalSort(property) {
     return function (a, b) {
-        if (a[property].toLowerCase() < b[property].toLowerCase()) {
-            return -1;
-        } else if (a[property].toLowerCase() > b[property].toLowerCase()) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
+        return (a[property].toLowerCase() > b[property].toLowerCase()) ? 1 : -1;
+    };
 }
 
 //function that returns a number's properties in ascending order
@@ -84,7 +79,6 @@ function numericalSort(property){
         return a[property] - b[property];
     }
 }
-
 
 function randomQuoteGenerator() {
     const randomIndex = Math.floor(Math.random() * quotes.length); //generate random index, round down to make it a whole num
@@ -116,3 +110,8 @@ document.getElementById("sort-by-title").addEventListener("click", function() {
 
 document.getElementById("card-popper").addEventListener("click", removeLastCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
+
+
+
+
+
