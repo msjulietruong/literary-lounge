@@ -10,7 +10,8 @@ const books = [
         pages: 207,
         publicationYear: 2003,
         originalPublicationYear: 1997,
-        imgUrl: "https://m.media-amazon.com/images/I/71y+XnBXm4L._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71y+XnBXm4L._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4
     },
     {
         id: 15839976,
@@ -22,7 +23,8 @@ const books = [
         pages: 382,
         publicationYear: 2014,
         originalPublicationYear: 2014,
-        imgUrl: "https://m.media-amazon.com/images/I/81tZufOGaZL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81tZufOGaZL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4.5
     },
     {
         id: 6514,
@@ -35,7 +37,8 @@ const books = [
         publicationYear: 2006,
         originalPublicationYear: 1963,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF350,350_QL50_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF350,350_QL50_.jpg",
+        opinion: 5
     },
     {
         id: 58784475,
@@ -48,7 +51,8 @@ const books = [
         publicationYear: 2022,
         originalPublicationYear: 2022,
         dateRead: "4/6/24",
-        imgUrl: "https://m.media-amazon.com/images/I/91VcwLdcNHL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/91VcwLdcNHL._AC_UF1000,1000_QL80_.jpg",
+        opinion: -2
     },
     {
         id: 53568397,
@@ -61,7 +65,8 @@ const books = [
         publicationYear: 2020,
         originalPublicationYear: 2020,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/71ls-I6A5KL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71ls-I6A5KL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 58655861,
@@ -73,7 +78,8 @@ const books = [
         pages: 0,
         publicationYear: 2021,
         originalPublicationYear: 1959,
-        imgUrl: "https://m.media-amazon.com/images/I/61nTspM+BYL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61nTspM+BYL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 32620332,
@@ -86,7 +92,8 @@ const books = [
         publicationYear: 2017,
         originalPublicationYear: 2017,
         dateRead: "3/10/22",
-        imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 2
     },
     {
         id: 84981,
@@ -99,7 +106,8 @@ const books = [
         publicationYear: 1985,
         originalPublicationYear: 1975,
         dateRead: "3/9/22",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/en/1/1d/TuckEverlasting.jpg"
+        imgUrl: "https://upload.wikimedia.org/wikipedia/en/1/1d/TuckEverlasting.jpg",
+        opinion: 4
     },
     {
         id: 133518,
@@ -112,7 +120,8 @@ const books = [
         publicationYear: 1998,
         originalPublicationYear: 1990,
         dateRead: "3/9/22",
-        imgUrl: "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 40940121,
@@ -125,7 +134,8 @@ const books = [
         publicationYear: 2009,
         originalPublicationYear: 1977,
         dateRead: "3/9/22",
-        imgUrl: "https://m.media-amazon.com/images/I/811n3tkxhPL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/811n3tkxhPL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4
     },
     {
         id: 18079719,
@@ -138,7 +148,8 @@ const books = [
         publicationYear: 2014,
         originalPublicationYear: 2014,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/61wUv6fkRPL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61wUv6fkRPL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 331920,
@@ -151,7 +162,8 @@ const books = [
         publicationYear: 2003,
         originalPublicationYear: 2001,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/51Hzxs85pTL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/51Hzxs85pTL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 233818,
@@ -164,7 +176,8 @@ const books = [
         publicationYear: 1971,
         originalPublicationYear: 1960,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81gSvYPU0xL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81gSvYPU0xL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4.5
     },
     {
         id: 50,
@@ -177,7 +190,8 @@ const books = [
         publicationYear: 2000,
         originalPublicationYear: 1987,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81TZunL8kQL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81TZunL8kQL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4
     },
     {
         id: 13079982,
@@ -190,7 +204,8 @@ const books = [
         publicationYear: 2011,
         originalPublicationYear: 1953,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 3636,
@@ -203,7 +218,8 @@ const books = [
         publicationYear: 2006,
         originalPublicationYear: 1993,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81cJChEQjSL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81cJChEQjSL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3.5
     },
     {
         id: 22055262,
@@ -216,7 +232,8 @@ const books = [
         publicationYear: 2015,
         originalPublicationYear: 2015,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81Zd2d+NMZL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81Zd2d+NMZL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4
     },
     {
         id: 890,
@@ -229,7 +246,8 @@ const books = [
         publicationYear: 2002,
         originalPublicationYear: 1937,
         dateRead: "3/8/22",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg"
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg",
+        opinion: 5
     },
     {
         id: 40961427,
@@ -242,7 +260,8 @@ const books = [
         publicationYear: 2013,
         originalPublicationYear: 1949,
         dateRead: "3/8/22",
-        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZOB8G9WhHl2MjHjktqreA5NENS2vsoCJesh8lcjB_w&s"
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZOB8G9WhHl2MjHjktqreA5NENS2vsoCJesh8lcjB_w&s",
+        opinion: 2
     },
     {
         id: 4671,
@@ -255,7 +274,8 @@ const books = [
         publicationYear: 1925,
         originalPublicationYear: 1925,
         dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 12000020,
@@ -268,7 +288,8 @@ const books = [
         publicationYear: 2012,
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
-        imgUrl: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665955751/aristotle-and-dante-discover-the-secrets-of-the-universe-9781665955751_hr.jpg"
+        imgUrl: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665955751/aristotle-and-dante-discover-the-secrets-of-the-universe-9781665955751_hr.jpg",
+        opinion: 3
     },
     {
         id: 32571395,
@@ -281,7 +302,8 @@ const books = [
         publicationYear: 2017,
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/914W0VECGCL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/914W0VECGCL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 33385229,
@@ -294,7 +316,8 @@ const books = [
         publicationYear: 2017,
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/81D-gdnku+L._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81D-gdnku+L._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 23677341,
@@ -307,7 +330,8 @@ const books = [
         publicationYear: 2016,
         originalPublicationYear: 2016,
         dateRead: "3/26/19",
-        imgUrl: "https://shaundavidhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg"
+        imgUrl: "https://shaundavidhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg",
+        opinion: 5
     },
     {
         id: 37570546,
@@ -320,7 +344,8 @@ const books = [
         publicationYear: 2019,
         originalPublicationYear: 2019,
         dateRead: "1/1/22",
-        imgUrl: "https://m.media-amazon.com/images/I/71r0hQEoWIL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71r0hQEoWIL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 9361589,
@@ -333,20 +358,8 @@ const books = [
         publicationYear: 2011,
         originalPublicationYear: 2011,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg"
-    },
-    {
-        id: 11337018,
-        title: "The Night Circus",
-        author: "Erin Morgenstern",
-        rating: 4.02,
-        publisher: "Anchor",
-        format: "ebook",
-        pages: 387,
-        publicationYear: 2011,
-        originalPublicationYear: 2011,
-        dateRead: "4/17/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg",
+        opinion: -2
     },
     {
         id: 32075671,
@@ -359,7 +372,8 @@ const books = [
         publicationYear: 2017,
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71DZv5+s67L._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71DZv5+s67L._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 929,
@@ -372,7 +386,8 @@ const books = [
         publicationYear: 2005,
         originalPublicationYear: 1997,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61zpjN+tjVL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61zpjN+tjVL._AC_UF1000,1000_QL80_.jpg",
+        opinion: -2
     },
     {
         id: 7624,
@@ -385,7 +400,8 @@ const books = [
         publicationYear: 1999,
         originalPublicationYear: 1954,
         dateRead: "1/1/19",
-        imgUrl: "https://m.media-amazon.com/images/I/81WUAoL-wFL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81WUAoL-wFL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4.5
     },
     {
         id: 38447,
@@ -398,7 +414,8 @@ const books = [
         publicationYear: 1998,
         originalPublicationYear: 1985,
         dateRead: "1/1/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4.5
     },
     {
         id: 22557272,
@@ -411,7 +428,8 @@ const books = [
         publicationYear: 2015,
         originalPublicationYear: 2015,
         dateRead: "1/1/19",
-        imgUrl: "https://m.media-amazon.com/images/I/41t6xrKxxPL._SY445_SX342_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/41t6xrKxxPL._SY445_SX342_.jpg",
+        opinion: 5
     },
     {
         id: 7735333,
@@ -424,7 +442,8 @@ const books = [
         publicationYear: 2010,
         originalPublicationYear: 2010,
         dateRead: "3/11/19",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Matched.jpg/220px-Matched.jpg"
+        imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Matched.jpg/220px-Matched.jpg",
+        opinion: 1
     },
     {
         id: 15745753,
@@ -437,7 +456,8 @@ const books = [
         publicationYear: 2013,
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg",
+        opinion: -2
     },
     {
         id: 13335037,
@@ -450,7 +470,8 @@ const books = [
         publicationYear: 2012,
         originalPublicationYear: 2011,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/91oNu+R7EUL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/91oNu+R7EUL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 2
     },
     {
         id: 2767052,
@@ -463,7 +484,8 @@ const books = [
         publicationYear: 2008,
         originalPublicationYear: 2008,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 41865,
@@ -476,7 +498,8 @@ const books = [
         publicationYear: 2006,
         originalPublicationYear: 2005,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 1
     },
     {
         id: 13262783,
@@ -489,7 +512,8 @@ const books = [
         publicationYear: 2012,
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/81f3kki57fL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81f3kki57fL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 16085481,
@@ -502,7 +526,8 @@ const books = [
         publicationYear: 2013,
         originalPublicationYear: 2013,
         dateRead: "1/1/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71qzZ9tf+AL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71qzZ9tf+AL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 17347634,
@@ -515,7 +540,8 @@ const books = [
         publicationYear: 2013,
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61Ax4eSeTDL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61Ax4eSeTDL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5
     },
     {
         id: 6442769,
@@ -528,7 +554,8 @@ const books = [
         publicationYear: 2009,
         originalPublicationYear: 2008,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/81WBJQUEFsL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/81WBJQUEFsL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 2
     },
     {
         id: 398635,
@@ -541,7 +568,8 @@ const books = [
         publicationYear: 2006,
         originalPublicationYear: 1960,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 4
     },
     {
         id: 5129,
@@ -554,7 +582,8 @@ const books = [
         publicationYear: 2007,
         originalPublicationYear: 2007,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71Q1Iu4suSL._AC_UF894,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71Q1Iu4suSL._AC_UF894,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 2429135,
@@ -567,7 +596,8 @@ const books = [
         publicationYear: 2005,
         originalPublicationYear: 2005,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 28187,
@@ -580,7 +610,8 @@ const books = [
         publicationYear: 2003,
         originalPublicationYear: 2003,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/51190vnHUhL._AC_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/51190vnHUhL._AC_.jpg",
+        opinion: 3
     },
     {
         id: 3625,
@@ -593,7 +624,8 @@ const books = [
         publicationYear: 2000,
         originalPublicationYear: 2000,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71ykU-RQ0nL._AC_UF894,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71ykU-RQ0nL._AC_UF894,1000_QL80_.jpg",
+        opinion: 3
     },
     {
         id: 2,
@@ -606,7 +638,8 @@ const books = [
         publicationYear: 1999,
         originalPublicationYear: 1997,
         dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71-++hbbERL._AC_UF894,1000_QL80_.jpg"
+        imgUrl: "https://m.media-amazon.com/images/I/71-++hbbERL._AC_UF894,1000_QL80_.jpg",
+        opinion: 3
     }
 ];
 
