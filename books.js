@@ -48,7 +48,7 @@ const books = [
         originalPublicationYear: 2022,
         dateRead: "4/6/24",
         imgUrl: "https://m.media-amazon.com/images/I/91VcwLdcNHL._AC_UF1000,1000_QL80_.jpg",
-        opinion: -2
+        opinion: 1
     },
     {
         title: "The Midnight Library",
@@ -86,7 +86,7 @@ const books = [
         originalPublicationYear: 2017,
         dateRead: "3/10/22",
         imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 2
+        opinion: 3
     },
     {
         title: "Tuck Everlasting",
@@ -242,7 +242,7 @@ const books = [
         originalPublicationYear: 1949,
         dateRead: "3/8/22",
         imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZOB8G9WhHl2MjHjktqreA5NENS2vsoCJesh8lcjB_w&s",
-        opinion: 2
+        opinion: 3
     },
     {
         title: "The Great Gatsby",
@@ -424,7 +424,7 @@ const books = [
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg",
-        opinion: -2
+        opinion: 1
     },
     {
         title: "Divergent (Divergent, #1)",
