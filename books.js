@@ -10,7 +10,8 @@ const books = [
         publicationYear: 2003,
         originalPublicationYear: 1997,
         imgUrl: "https://m.media-amazon.com/images/I/71y+XnBXm4L._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4
+        opinion: 4,
+        genres: ["adventure", "fantasy", "action"]
     },
     {
         title: "Red Rising (Red Rising Saga, #1)",
@@ -22,7 +23,8 @@ const books = [
         publicationYear: 2014,
         originalPublicationYear: 2014,
         imgUrl: "https://m.media-amazon.com/images/I/81tZufOGaZL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4.5
+        opinion: 4.5,
+        genres: ["science fiction", "dystopian fiction", "novel"]
     },
     {
         title: "The Bell Jar",
@@ -35,7 +37,8 @@ const books = [
         originalPublicationYear: 1963,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF350,350_QL50_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["novel", "autobiography", "psychological fiction"]
     },
     {
         title: "Tomorrow, and Tomorrow, and Tomorrow",
@@ -48,7 +51,8 @@ const books = [
         originalPublicationYear: 2022,
         dateRead: "4/6/24",
         imgUrl: "https://m.media-amazon.com/images/I/91VcwLdcNHL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 1
+        opinion: 1,
+        genres: ["coming-of-age", "adventure fiction"]
     },
     {
         title: "The Midnight Library",
@@ -61,7 +65,8 @@ const books = [
         originalPublicationYear: 2020,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/71ls-I6A5KL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["science fiction", "fantasy fiction", "philosophical fiction"]
     },
     {
         title: "A Timeless Story: Man's Search for Meaning by V.E.Frankl's Memoir",
@@ -73,7 +78,8 @@ const books = [
         publicationYear: 2021,
         originalPublicationYear: 1959,
         imgUrl: "https://m.media-amazon.com/images/I/61nTspM+BYL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genre: ["biography", "autobiography", "personal narrative"]
     },
     {
         title: "The Seven Husbands of Evelyn Hugo",
@@ -86,46 +92,8 @@ const books = [
         originalPublicationYear: 2017,
         dateRead: "3/10/22",
         imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Tuck Everlasting",
-        author: "Babbitt, Natalie",
-        rating: 3.9,
-        publisher: "Farrar, Straus and Giroux (BYR)",
-        format: "Paperback",
-        pages: 148,
-        publicationYear: 1985,
-        originalPublicationYear: 1975,
-        dateRead: "3/9/22",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/en/1/1d/TuckEverlasting.jpg",
-        opinion: 4
-    },
-    {
-        title: "The Things They Carried",
-        author: "O'Brien, Tim",
-        rating: 4.14,
-        publisher: "Broadway",
-        format: "Paperback",
-        pages: 246,
-        publicationYear: 1998,
-        originalPublicationYear: 1990,
-        dateRead: "3/9/22",
-        imgUrl: "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Bridge to Terabithia",
-        author: "Paterson, Katherine",
-        rating: 4.05,
-        publisher: "HarperCollins",
-        format: "Kindle Edition",
-        pages: 190,
-        publicationYear: 2009,
-        originalPublicationYear: 1977,
-        dateRead: "3/9/22",
-        imgUrl: "https://m.media-amazon.com/images/I/811n3tkxhPL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4
+        opinion: 3,
+        genres: ["novel", "romance novel", "historical fiction"]
     },
     {
         title: "Grasshopper Jungle",
@@ -138,7 +106,8 @@ const books = [
         originalPublicationYear: 2014,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/61wUv6fkRPL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
+        opinion: 3,
+        genres: ["humor", "novel", "science fiction"]
     },
     {
         title: "Flipped",
@@ -151,20 +120,8 @@ const books = [
         originalPublicationYear: 2001,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/51Hzxs85pTL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
-    },
-    {
-        title: "Island of the Blue Dolphins",
-        author: "O'Dell, Scott",
-        rating: 3.87,
-        publisher: "Yearling",
-        format: "Paperback",
-        pages: 184,
-        publicationYear: 1971,
-        originalPublicationYear: 1960,
-        dateRead: "3/8/22",
-        imgUrl: "https://m.media-amazon.com/images/I/81gSvYPU0xL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4.5
+        opinion: 5,
+        genres: ["young adult literature", "romance novel"]
     },
     {
         title: "Hatchet (Brian's Saga, #1)",
@@ -177,7 +134,8 @@ const books = [
         originalPublicationYear: 1987,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/81TZunL8kQL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4
+        opinion: 4,
+        genres: ["novel", "young adult literature", "adventure fiction"]
     },
     {
         title: "Fahrenheit 451",
@@ -190,7 +148,8 @@ const books = [
         originalPublicationYear: 1953,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["novel", "dystopian fiction", "political fiction"]
     },
     {
         title: "The Giver (The Giver, #1)",
@@ -203,7 +162,8 @@ const books = [
         originalPublicationYear: 1993,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/81cJChEQjSL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3.5
+        opinion: 3.5,
+        genres: ["novel", "science fiction", "dystopian fiction"]
     },
     {
         title: "A Darker Shade of Magic (Shades of Magic, #1)",
@@ -216,7 +176,8 @@ const books = [
         originalPublicationYear: 2015,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/81Zd2d+NMZL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4
+        opinion: 4,
+        genres: ["fantasy", "science fiction", "historical fantasy"]
     },
     {
         title: "Of Mice and Men",
@@ -229,7 +190,8 @@ const books = [
         originalPublicationYear: 1937,
         dateRead: "3/8/22",
         imgUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["novella", "fiction", "tragedy"]
     },
     {
         title: "1984",
@@ -242,7 +204,8 @@ const books = [
         originalPublicationYear: 1949,
         dateRead: "3/8/22",
         imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZOB8G9WhHl2MjHjktqreA5NENS2vsoCJesh8lcjB_w&s",
-        opinion: 3
+        opinion: 3,
+        genres: ["dystopian fiction", "political fiction", "science fiction"]
     },
     {
         title: "The Great Gatsby",
@@ -255,7 +218,8 @@ const books = [
         originalPublicationYear: 1925,
         dateRead: "3/8/22",
         imgUrl: "https://m.media-amazon.com/images/I/61OTNorhqVS._AC_UF894,1000_QL80_.jpg",
-        opinion: 3
+        opinion: 3,
+        genres: ["novel", "tragedy", "literary fiction"]
     },
     {
         title: "Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante, #1)",
@@ -268,7 +232,8 @@ const books = [
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
         imgUrl: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665955751/aristotle-and-dante-discover-the-secrets-of-the-universe-9781665955751_hr.jpg",
-        opinion: 3
+        opinion: 3,
+        genres: ["novel", "young adult literature", "Bildungsroman"]
     },
     {
         title: "One of Us Is Lying (One of Us is Lying, #1)",
@@ -281,7 +246,8 @@ const books = [
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/914W0VECGCL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
+        opinion: 3,
+        genres: ["young adult literature", "mystery"]
     },
     {
         title: "They Both Die at the End (They Both Die at the End Series, 1)",
@@ -294,7 +260,8 @@ const books = [
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/81D-gdnku+L._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["young adult literature", "LGBT literature"]
     },
     {
         title: "We Are the Ants",
@@ -306,8 +273,9 @@ const books = [
         publicationYear: 2016,
         originalPublicationYear: 2016,
         dateRead: "3/26/19",
-        imgUrl: "https://shaundavhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg",
-        opinion: 5
+        imgUrl: "https://m.media-amazon.com/images/I/71KJo78F-fL._SL1500_.jpg",
+        opinion: 5,
+        genres: ["young adult literature", "science fiction"]
     },
     {
         title: "Maybe You Should Talk to Someone",
@@ -320,7 +288,8 @@ const books = [
         originalPublicationYear: 2019,
         dateRead: "1/1/22",
         imgUrl: "https://m.media-amazon.com/images/I/71r0hQEoWIL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["memoir", "autobiography", "biography"]
     },
     {
         title: "The Night Circus",
@@ -333,7 +302,8 @@ const books = [
         originalPublicationYear: 2011,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 1
+        opinion: 1,
+        genres: ["novel", "fantasy", "romance"]
     },
     {
         title: "The Hate U Give (The Hate U Give, #1)",
@@ -346,20 +316,8 @@ const books = [
         originalPublicationYear: 2017,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/71DZv5+s67L._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
-    },
-    {
-        title: "Memoirs of a Geisha",
-        author: "Golden, Arthur",
-        rating: 4.15,
-        publisher: "Vintage Books USA",
-        format: "Mass Market Paperback",
-        pages: 503,
-        publicationYear: 2005,
-        originalPublicationYear: 1997,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61zpjN+tjVL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 1
+        opinion: 5,
+        genres: ["novel", "urban fiction"]
     },
     {
         title: "Lord of the Flies",
@@ -372,7 +330,8 @@ const books = [
         originalPublicationYear: 1954,
         dateRead: "1/1/19",
         imgUrl: "https://m.media-amazon.com/images/I/81WUAoL-wFL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4.5
+        opinion: 4.5,
+        genres: ["novel", "allegory", "young adult literature"]
     },
     {
         title: "The Handmaid's Tale (The Handmaid's Tale, #1)",
@@ -385,7 +344,8 @@ const books = [
         originalPublicationYear: 1985,
         dateRead: "1/1/19",
         imgUrl: "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4.5
+        opinion: 4.5,
+        genres: ["novel", "dystopian fiction", "feminist science fiction"]
     },
     {
         title: "The Girl on the Train",
@@ -398,20 +358,8 @@ const books = [
         originalPublicationYear: 2015,
         dateRead: "1/1/19",
         imgUrl: "https://m.media-amazon.com/images/I/41t6xrKxxPL._SY445_SX342_.jpg",
-        opinion: 5
-    },
-    {
-        title: "Matched (Matched, #1)",
-        author: "Condie, Ally",
-        rating: 3.63,
-        publisher: "Dutton Books for Young Readers",
-        format: "Hardcover",
-        pages: 369,
-        publicationYear: 2010,
-        originalPublicationYear: 2010,
-        dateRead: "3/11/19",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Matched.jpg/220px-Matched.jpg",
-        opinion: 1
+        opinion: 5,
+        genres: ["novel", "thriller", "mystery"]
     },
     {
         title: "Eleanor & Park",
@@ -424,20 +372,8 @@ const books = [
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg",
-        opinion: 1
-    },
-    {
-        title: "Divergent (Divergent, #1)",
-        author: "Roth, Veronica",
-        rating: 4.14,
-        publisher: "Katherine Tegen Books",
-        format: "Paperback",
-        pages: 487,
-        publicationYear: 2012,
-        originalPublicationYear: 2011,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/91oNu+R7EUL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 2
+        opinion: 1,
+        genres: ["novel", "fiction", "romance"]
     },
     {
         title: "The Hunger Games (The Hunger Games, #1)",
@@ -450,20 +386,8 @@ const books = [
         originalPublicationYear: 2008,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Twilight (The Twilight Saga, #1)",
-        author: "Meyer, Stephenie",
-        rating: 3.65,
-        publisher: "Little, Brown and Company",
-        format: "Paperback",
-        pages: 498,
-        publicationYear: 2006,
-        originalPublicationYear: 2005,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 1
+        opinion: 3,
+        genres:["novel", "young adult literature", "dystopian fiction"]
     },
     {
         title: "Every Day (Every Day, #1)",
@@ -476,20 +400,8 @@ const books = [
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/81f3kki57fL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Crazy Rich Asians (Crazy Rich Asians, #1)",
-        author: "Kwan, Kevin",
-        rating: 3.9,
-        publisher: "Doubleday",
-        format: "Hardcover",
-        pages: 403,
-        publicationYear: 2013,
-        originalPublicationYear: 2013,
-        dateRead: "1/1/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71qzZ9tf+AL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
+        opinion: 3,
+        genres: ["novel", "young adult literature", "romance novel"]
     },
     {
         title: "Me Before You (Me Before You, #1)",
@@ -502,98 +414,106 @@ const books = [
         originalPublicationYear: 2012,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/61Ax4eSeTDL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 5
+        opinion: 5,
+        genres: ["romance novel", "fiction", "contemporary romance"]
     },
     {
-        title: "Paper Towns",
-        author: "Green, John",
-        rating: 3.71,
-        publisher: "Speak",
+        title: "Chainsaw Man, Vol. 1: Dog and Chainsaw",
+        author: "Fujimoto, Tatsuki",
+        rating: 4.39,
+        publisher: "VIZ Media LLC",
+        format: "Kindle Edition",
+        pages: 192,
+        publicationYear: 2020,
+        originalPublicationYear: 2019,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/81s8xJUzWGL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["shonen", "dark fantasy", "manga"]
+    },
+    {
+        title: "Mob Psycho 100 Volume 1",
+        author: "ONE",
+        rating: 4.22,
+        publisher: "Dark Horse Comics",
+        format: "Kindle Edition",
+        pages: 192,
+        publicationYear: 2012,
+        originalPublicationYear: 2012,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/91nunbvU04L._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["action", "comedy", "supernatural", "manga"]
+    },
+    {
+        title: "Goodnight PunPun Omnibus, Vol. 1 (Goodnight Punpun, Omnibus #1)",
+        author: "Asano, Inio",
+        rating: 4.27,
+        publisher: "VIZ Media LLC",
         format: "Paperback",
-        pages: 305,
-        publicationYear: 2009,
-        originalPublicationYear: 2008,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/81WBJQUEFsL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 2
+        pages: 448,
+        publicationYear: 2016,
+        originalPublicationYear: 2016,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/917IJDfk36L._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["seinen", "drama", "manga"]
     },
     {
-        title: "To Kill a Mockingbird",
-        author: "Lee, Harper",
-        rating: 4.29,
-        publisher: "Grand Central Publishing",
+        title: "I'm Glad My Mom Died",
+        author: "McCurdy, Jennette",
+        rating: 4.47,
+        publisher: "Simon & Schuster",
+        format: "Hardcover",
+        pages: 304,
+        publicationYear: 2022,
+        originalPublicationYear: 2022,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/71x3UZ18tmL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["memoir", "autobiography", "biography"]
+    },
+    {
+        title: "Once Upon a Marigold (Upon a Marigold #1)",
+        author: "Ferris, Jean",
+        rating: 4.01,
+        publisher: "Harcourt, Inc",
         format: "Paperback",
-        pages: 324,
-        publicationYear: 2006,
-        originalPublicationYear: 1960,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
-        opinion: 4
+        pages: 271,
+        publicationYear: 2004,
+        originalPublicationYear: 2002,
+        dateRead: "",
+        imgUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429468490i/157055.jpg",
+        opinion: 4,
+        genres: ["fiction", "humor"]
     },
     {
-        title: "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
-        author: "Rowling, J.K.",
-        rating: 4.63,
-        publisher: "Scholastic Inc.",
-        format: "Hardcover",
-        pages: 759,
-        publicationYear: 2007,
-        originalPublicationYear: 2007,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71Q1Iu4suSL._AC_UF894,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
-        author: "Rowling, J.K.",
-        rating: 4.57,
-        publisher: "Scholastic",
-        format: "Hardcover",
-        pages: 652,
-        publicationYear: 2005,
-        originalPublicationYear: 2005,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
-        author: "Rowling, J.K.",
-        rating: 4.57,
-        publisher: "Arthur A. Levine Books",
-        format: "Hardcover",
-        pages: 870,
-        publicationYear: 2003,
-        originalPublicationYear: 2003,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/51190vnHUhL._AC_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
-        author: "Rowling, J.K.",
-        rating: 4.57,
-        publisher: "Scholastic Inc.",
-        format: "Hardcover",
-        pages: 734,
-        publicationYear: 2000,
-        originalPublicationYear: 2000,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71ykU-RQ0nL._AC_UF894,1000_QL80_.jpg",
-        opinion: 3
-    },
-    {
-        title: "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
-        author: "Rowling, J.K.",
-        rating: 4.48,
-        publisher: "Scholastic Inc.",
+        title: "Perks of Being a Wallflower",
+        author: "Chbosky, Stephen",
+        rating: 4.23,
+        publisher: "MTV Books/Pocket Books",
         format: "Paperback",
-        pages: 309,
+        pages: 213,
         publicationYear: 1999,
-        originalPublicationYear: 1997,
-        dateRead: "3/11/19",
-        imgUrl: "https://m.media-amazon.com/images/I/71-++hbbERL._AC_UF894,1000_QL80_.jpg",
-        opinion: 3
+        originalPublicationYear: 1999,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/81I7vXqjEML._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["Bildungsroman", "young adult literature", "epistolary novel"]
+    },
+    {
+        title: "Sold",
+        author: "McCormick, Patricia",
+        rating: 4.23,
+        publisher: "Little Brown Books for Young Readers",
+        format: "Hardcover",
+        pages: 213,
+        publicationYear: 2006,
+        originalPublicationYear: 2006,
+        dateRead: "",
+        imgUrl: "https://m.media-amazon.com/images/I/61NiFw4L1YL._AC_UF1000,1000_QL80_.jpg",
+        opinion: 5,
+        genres: ["novel", "fiction"]
     }
 ];
 
