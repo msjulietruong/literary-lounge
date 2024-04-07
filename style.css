@@ -15,20 +15,24 @@ body {
     font-size: 8em;
     font-family: "Helvetica";
     font-weight: normal;
-    color: white;
+    color: rebeccapurple;
 }
 
 #card-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* provides a way for cards to stay within one container */
     margin: 20px;
+    width: 100%; /* doesn't stretch out the page */
+    max-width: 1200px;
 }
 
 .card {
-    width: 300px;
+    width: calc(25% - 20px); /* each card takes up only 25% of width in container, also provides a small margin between each card */
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* padding and border implemented to reflect element's total width and height */
     margin: 5px;
 }
 
