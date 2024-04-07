@@ -21,8 +21,7 @@ const quotes = [
         author: "Ray Bradbury"
     },
     {
-        quote: `We may not get to choose how we die, but we can choose how we live.
-    The universe may forget us, but it doesn't matter. Because we are the ants, and we'll keep marching on.`,
+        quote: `We may not get to choose how we die, but we can choose how we live. The universe may forget us, but it doesn't matter. Because we are the ants, and we'll keep marching on.`,
         author: "Shaun David Hutcherson"
 
 },
