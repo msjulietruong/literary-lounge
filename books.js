@@ -1,9 +1,8 @@
-// array of object literals with data inside of them is depicted below
+// array of object literals with data components depicted below
 const books = [
     {
-        id: 1237398,
         title: "One Piece, Volume 1: Romance Dawn (One Piece, #1)",
-        author: "Eiichiro Oda",
+        author: "Oda, Eiichiro",
         rating: 4.48,
         publisher: "VIZ Media LLC",
         format: "Paperback",
@@ -14,9 +13,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 15839976,
         title: "Red Rising (Red Rising Saga, #1)",
-        author: "Pierce Brown",
+        author: "Brown, Pierce",
         rating: 4.27,
         publisher: "Del Rey",
         format: "Hardcover",
@@ -27,9 +25,8 @@ const books = [
         opinion: 4.5
     },
     {
-        id: 6514,
         title: "The Bell Jar",
-        author: "Sylvia Plath",
+        author: "Plath, Sylvia",
         rating: 4.05,
         publisher: "Harper Perennial Modern Classics",
         format: "Paperback",
@@ -41,9 +38,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 58784475,
         title: "Tomorrow, and Tomorrow, and Tomorrow",
-        author: "Gabrielle Zevin",
+        author: "Zevin, Gabrielle",
         rating: 4.18,
         publisher: "Knopf",
         format: "Hardcover",
@@ -55,9 +51,8 @@ const books = [
         opinion: -2
     },
     {
-        id: 53568397,
         title: "The Midnight Library",
-        author: "Matt Haig",
+        author: "Haig, Matt",
         rating: 4,
         publisher: "Viking",
         format: "Kindle Edition",
@@ -69,9 +64,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 58655861,
         title: "A Timeless Story: Man's Search for Meaning by V.E.Frankl's Memoir",
-        author: "Viktor E. Frankl",
+        author: "Frankl, Viktor E.",
         rating: 4.37,
         publisher: "",
         format: "Kindle Edition",
@@ -82,9 +76,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 32620332,
         title: "The Seven Husbands of Evelyn Hugo",
-        author: "Taylor Jenkins Reid",
+        author: "Reid, Taylor Jenkins",
         rating: 4.42,
         publisher: "Atria Books",
         format: "Hardcover",
@@ -96,9 +89,8 @@ const books = [
         opinion: 2
     },
     {
-        id: 84981,
         title: "Tuck Everlasting",
-        author: "Natalie Babbitt",
+        author: "Babbitt, Natalie",
         rating: 3.9,
         publisher: "Farrar, Straus and Giroux (BYR)",
         format: "Paperback",
@@ -110,9 +102,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 133518,
         title: "The Things They Carried",
-        author: "Tim O'Brien",
+        author: "O'Brien, Tim",
         rating: 4.14,
         publisher: "Broadway",
         format: "Paperback",
@@ -124,9 +115,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 40940121,
         title: "Bridge to Terabithia",
-        author: "Katherine Paterson",
+        author: "Paterson, Katherine",
         rating: 4.05,
         publisher: "HarperCollins",
         format: "Kindle Edition",
@@ -138,9 +128,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 18079719,
         title: "Grasshopper Jungle",
-        author: "Andrew  Smith",
+        author: "Smith, Andrew",
         rating: 3.63,
         publisher: "Dutton Books",
         format: "Hardcover",
@@ -152,9 +141,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 331920,
         title: "Flipped",
-        author: "Wendelin Van Draanen",
+        author: "Van Draanen, Wendelin",
         rating: 3.98,
         publisher: "Knopf",
         format: "Paperback",
@@ -166,9 +154,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 233818,
         title: "Island of the Blue Dolphins",
-        author: "Scott O'Dell",
+        author: "O'Dell, Scott",
         rating: 3.87,
         publisher: "Yearling",
         format: "Paperback",
@@ -180,9 +167,8 @@ const books = [
         opinion: 4.5
     },
     {
-        id: 50,
         title: "Hatchet (Brian's Saga, #1)",
-        author: "Gary Paulsen",
+        author: "Paulsen, Gary",
         rating: 3.78,
         publisher: "Atheneum Books for Young Readers: Richard Jackson Books",
         format: "Hardcover",
@@ -194,9 +180,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 13079982,
         title: "Fahrenheit 451",
-        author: "Ray Bradbury",
+        author: "Bradbury, Ray",
         rating: 3.97,
         publisher: "Simon & Schuster",
         format: "Kindle Edition",
@@ -208,9 +193,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 3636,
         title: "The Giver (The Giver, #1)",
-        author: "Lois Lowry",
+        author: "Lowry, Lois",
         rating: 4.12,
         publisher: "Ember",
         format: "Paperback",
@@ -222,9 +206,8 @@ const books = [
         opinion: 3.5
     },
     {
-        id: 22055262,
         title: "A Darker Shade of Magic (Shades of Magic, #1)",
-        author: "V.E.  Schwab",
+        author: "Schwab, V.E.",
         rating: 4.06,
         publisher: "Tor",
         format: "Hardcover",
@@ -236,9 +219,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 890,
         title: "Of Mice and Men",
-        author: "John Steinbeck",
+        author: "Steinbeck, John",
         rating: 3.88,
         publisher: "Penguin Books",
         format: "Paperback",
@@ -250,9 +232,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 40961427,
         title: "1984",
-        author: "George Orwell",
+        author: "Orwell, George",
         rating: 4.19,
         publisher: "Houghton Mifflin Harcourt",
         format: "Kindle Edition",
@@ -264,9 +245,8 @@ const books = [
         opinion: 2
     },
     {
-        id: 4671,
         title: "The Great Gatsby",
-        author: "F. Scott Fitzgerald",
+        author: "Fitzgerald, F. Scott",
         rating: 3.93,
         publisher: "Scribner",
         format: "Paperback",
@@ -278,9 +258,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 12000020,
         title: "Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante, #1)",
-        author: "Benjamin Alire S√°enz",
+        author: "Sáenz, Benjamin Alire",
         rating: 4.31,
         publisher: "Simon & Schuster Books for Young Readers",
         format: "Hardcover",
@@ -292,9 +271,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 32571395,
         title: "One of Us Is Lying (One of Us is Lying, #1)",
-        author: "Karen M. McManus",
+        author: "McManus, Karen M.",
         rating: 3.94,
         publisher: "Delacorte Press",
         format: "Kindle Edition",
@@ -306,9 +284,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 33385229,
         title: "They Both Die at the End (They Both Die at the End Series, 1)",
-        author: "Adam Silvera",
+        author: "Silvera, Adam",
         rating: 3.77,
         publisher: "Quill Tree Books",
         format: "Hardcover",
@@ -320,9 +297,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 23677341,
         title: "We Are the Ants",
-        author: "Shaun David Hutchinson",
+        author: "Hutchinson, Shaun David",
         rating: 4.12,
         publisher: "Simon Pulse",
         format: "Hardcover",
@@ -330,13 +306,12 @@ const books = [
         publicationYear: 2016,
         originalPublicationYear: 2016,
         dateRead: "3/26/19",
-        imgUrl: "https://shaundavidhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg",
+        imgUrl: "https://shaundavhutchinson.com/wp-content/uploads/2019/11/We-Are-the-Ants-683x1024.jpg",
         opinion: 5
     },
     {
-        id: 37570546,
         title: "Maybe You Should Talk to Someone",
-        author: "Lori Gottlieb",
+        author: "Gottlieb, Lori",
         rating: 4.38,
         publisher: "Harper",
         format: "Hardcover",
@@ -348,9 +323,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 9361589,
         title: "The Night Circus",
-        author: "Erin Morgenstern",
+        author: "Morgenstern, Erin",
         rating: 4.02,
         publisher: "Doubleday",
         format: "Hardcover",
@@ -359,12 +333,11 @@ const books = [
         originalPublicationYear: 2011,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/61Pqqc4muHL._AC_UF1000,1000_QL80_.jpg",
-        opinion: -2
+        opinion: 1
     },
     {
-        id: 32075671,
         title: "The Hate U Give (The Hate U Give, #1)",
-        author: "Angie Thomas",
+        author: "Thomas, Angie",
         rating: 4.48,
         publisher: "Balzer + Bray",
         format: "Hardcover",
@@ -376,9 +349,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 929,
         title: "Memoirs of a Geisha",
-        author: "Arthur Golden",
+        author: "Golden, Arthur",
         rating: 4.15,
         publisher: "Vintage Books USA",
         format: "Mass Market Paperback",
@@ -387,12 +359,11 @@ const books = [
         originalPublicationYear: 1997,
         dateRead: "3/11/19",
         imgUrl: "https://m.media-amazon.com/images/I/61zpjN+tjVL._AC_UF1000,1000_QL80_.jpg",
-        opinion: -2
+        opinion: 1
     },
     {
-        id: 7624,
         title: "Lord of the Flies",
-        author: "William Golding",
+        author: "Golding, William",
         rating: 3.69,
         publisher: "Penguin Books",
         format: "Paperback",
@@ -404,9 +375,8 @@ const books = [
         opinion: 4.5
     },
     {
-        id: 38447,
         title: "The Handmaid's Tale (The Handmaid's Tale, #1)",
-        author: "Margaret Atwood",
+        author: "Atwood, Margaret",
         rating: 4.14,
         publisher: "Anchor Books",
         format: "Paperback",
@@ -418,9 +388,8 @@ const books = [
         opinion: 4.5
     },
     {
-        id: 22557272,
         title: "The Girl on the Train",
-        author: "Paula Hawkins",
+        author: "Hawkins, Paul",
         rating: 3.96,
         publisher: "Riverhead Books",
         format: "Hardcover",
@@ -432,9 +401,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 7735333,
         title: "Matched (Matched, #1)",
-        author: "Ally Condie",
+        author: "Condie, Ally",
         rating: 3.63,
         publisher: "Dutton Books for Young Readers",
         format: "Hardcover",
@@ -446,9 +414,8 @@ const books = [
         opinion: 1
     },
     {
-        id: 15745753,
         title: "Eleanor & Park",
-        author: "Rainbow Rowell",
+        author: "Rowell, Rainbow",
         rating: 3.94,
         publisher: "St. Martin's Press",
         format: "Hardcover",
@@ -460,9 +427,8 @@ const books = [
         opinion: -2
     },
     {
-        id: 13335037,
         title: "Divergent (Divergent, #1)",
-        author: "Veronica Roth",
+        author: "Roth, Veronica",
         rating: 4.14,
         publisher: "Katherine Tegen Books",
         format: "Paperback",
@@ -474,9 +440,8 @@ const books = [
         opinion: 2
     },
     {
-        id: 2767052,
         title: "The Hunger Games (The Hunger Games, #1)",
-        author: "Suzanne Collins",
+        author: "Collins, Suzanne",
         rating: 4.34,
         publisher: "Scholastic Press",
         format: "Hardcover",
@@ -488,9 +453,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 41865,
         title: "Twilight (The Twilight Saga, #1)",
-        author: "Stephenie Meyer",
+        author: "Meyer, Stephenie",
         rating: 3.65,
         publisher: "Little, Brown and Company",
         format: "Paperback",
@@ -502,9 +466,8 @@ const books = [
         opinion: 1
     },
     {
-        id: 13262783,
         title: "Every Day (Every Day, #1)",
-        author: "David Levithan",
+        author: "Leviathan, David",
         rating: 3.9,
         publisher: "Knopf Books for Young Readers",
         format: "Hardcover",
@@ -516,9 +479,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 16085481,
         title: "Crazy Rich Asians (Crazy Rich Asians, #1)",
-        author: "Kevin Kwan",
+        author: "Kwan, Kevin",
         rating: 3.9,
         publisher: "Doubleday",
         format: "Hardcover",
@@ -530,9 +492,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 17347634,
         title: "Me Before You (Me Before You, #1)",
-        author: "Jojo Moyes",
+        author: "Moyes, Jojo",
         rating: 4.26,
         publisher: "Penguin Books",
         format: "Paperback",
@@ -544,9 +505,8 @@ const books = [
         opinion: 5
     },
     {
-        id: 6442769,
         title: "Paper Towns",
-        author: "John Green",
+        author: "Green, John",
         rating: 3.71,
         publisher: "Speak",
         format: "Paperback",
@@ -558,9 +518,8 @@ const books = [
         opinion: 2
     },
     {
-        id: 398635,
         title: "To Kill a Mockingbird",
-        author: "Harper Lee",
+        author: "Lee, Harper",
         rating: 4.29,
         publisher: "Grand Central Publishing",
         format: "Paperback",
@@ -572,9 +531,8 @@ const books = [
         opinion: 4
     },
     {
-        id: 5129,
         title: "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
-        author: "J.K. Rowling",
+        author: "Rowling, J.K.",
         rating: 4.63,
         publisher: "Scholastic Inc.",
         format: "Hardcover",
@@ -586,9 +544,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 2429135,
         title: "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
-        author: "J.K. Rowling",
+        author: "Rowling, J.K.",
         rating: 4.57,
         publisher: "Scholastic",
         format: "Hardcover",
@@ -600,9 +557,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 28187,
         title: "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
-        author: "J.K. Rowling",
+        author: "Rowling, J.K.",
         rating: 4.57,
         publisher: "Arthur A. Levine Books",
         format: "Hardcover",
@@ -614,9 +570,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 3625,
         title: "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
-        author: "J.K. Rowling",
+        author: "Rowling, J.K.",
         rating: 4.57,
         publisher: "Scholastic Inc.",
         format: "Hardcover",
@@ -628,9 +583,8 @@ const books = [
         opinion: 3
     },
     {
-        id: 2,
         title: "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
-        author: "J.K. Rowling",
+        author: "Rowling, J.K.",
         rating: 4.48,
         publisher: "Scholastic Inc.",
         format: "Paperback",
