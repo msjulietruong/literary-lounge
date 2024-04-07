@@ -74,3 +74,55 @@ function removeLastCard() {
     books.pop(); // Remove last item in books array
     showCards(); // Call showCards again to refresh
 }
+
+function sortByAuthor(){
+    books.sort(alphabeticalSort("author"));
+    showCards(); // Call your function to update the display after sorting
+}
+
+function sortByTitle(){
+    books.sort(alphabeticalSort("title"));
+    showCards();
+}
+
+//function that returns strings properties in alphabetical order (asc)
+function alphabeticalSort(property) {
+    return function (a, b) {
+        if (a[property].toLowerCase() < b[property].toLowerCase()) {
+            return -1;
+        } else if (a[property].toLowerCase() > b[property].toLowerCase()) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+}
+
+function sortByAvgRating(){
+    books.sort(numericalSort("rating"));
+    showCards();
+}
+
+function sortByPersonalOpinion() {
+    books.sort(numericalSort("opinion"));
+    showCards();
+}
+
+function sortByPubYear(){
+    books.sort(numericalSort("publicationYear"));
+    showCards();
+}
+
+//function that returns number properties in numerical order (asc)
+function numericalSort(property){
+    return function(a, b) {
+        return a[property] - b[property];
+    }
+}
+
+document.getElementById("sort-by-author-btn").addEventListener("click", sortByAuthor);
+document.getElementById("sort-by-avg-btn").addEventListener("click", sortByAvgRating);
+document.getElementById("sort-by-opinion-btn").addEventListener("click", sortByPersonalOpinion);
+document.getElementById("sort-by-pub-year").addEventListener("click", sortByPubYear);
+document.getElementById("sort-by-title").addEventListener("click", sortByTitle);
+
