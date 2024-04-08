@@ -12,13 +12,14 @@ import books from "./books.js";
 import quotes from "./quotes.js";
 
 // This function adds cards the page to display the data in the array of objects (books!)
-function showCards() {
+function showCards(filteredBooks) {
     const cardContainer = document.getElementById("card-container");
     cardContainer.innerHTML = "";
     const templateCard = document.querySelector(".card");
 
-    for (let i = 0; i < books.length; i++) { //iterates through books array
-        const book = books[i];
+    const booksToDisplay = filteredBooks || books;
+    for (let i = 0; i < booksToDisplay.length; i++) { //iterates through books array
+        const book = booksToDisplay[i];
         const bookImage = document.createElement("img");
         bookImage.src = book.imgUrl;
         const nextCard = templateCard.cloneNode(true); // Copy the template card
@@ -49,20 +50,16 @@ function editCardContent(card, newBook) {
     cardPoint2.textContent = "Personal Rating: " + newBook.opinion;
 }
 
-// Calls the addCards() function when the page is first loaded
-document.addEventListener("DOMContentLoaded", showCards);
+// loads books array of objects automatically when user goes on page
+document.addEventListener("DOMContentLoaded", function(){
+    showCards();
+});
 
 function removeLastCard() {
     if (books.length === 0) {
         alert("No more cards left to delete!")
     }
     books.pop(); // Remove last item in books array
-    showCards(); // Call showCards again to refresh
-}
-
-//sort function that passes property in alongside calling which function to work (based on if it is a string or number)
-function sortCoordinator(property, sortFunction) {
-    books.sort(sortFunction(property));
     showCards();
 }
 
@@ -87,29 +84,48 @@ function randomQuoteGenerator() {
     alert(message);
 }
 
-//event Listener sections! allows buttons to work!
-document.getElementById("sort-by-author-btn").addEventListener("click", function() {
-    sortCoordinator("author", alphabeticalSort);
-});
-
-document.getElementById("sort-by-avg-btn").addEventListener("click", function() {
-    sortCoordinator("rating", numericalSort);
-});
-
-document.getElementById("sort-by-opinion-btn").addEventListener("click", function() {
-    sortCoordinator("opinion", numericalSort);
-});
-
-document.getElementById("sort-by-pub-year").addEventListener("click", function() {
-    sortCoordinator("publicationYear", numericalSort);
-});
-
-document.getElementById("sort-by-title").addEventListener("click", function() {
-    sortCoordinator("title", alphabeticalSort);
+// Event listener for all sort buttons
+const sortButtons = document.querySelectorAll(".sort-btn");
+sortButtons.forEach(button => {
+    button.addEventListener("click", function() {
+        const sortType = button.id.split("-")[1]; //sort-sortType
+        switch(sortType){
+            case "author":
+                books.sort(alphabeticalSort("author"));
+                break;
+            case "title":
+                books.sort(alphabeticalSort("title"));
+                break;
+            case "publicationYear":
+                books.sort(numericalSort("publicationYear"));
+                break;
+            case "rating":
+                books.sort(numericalSort("rating"));
+                break;
+            case "opinion":
+                books.sort(numericalSort("opinion"));
+                break;
+        }
+        showCards();
+    });
 });
 
 document.getElementById("card-popper").addEventListener("click", removeLastCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
+
+// Event listener for all genre filter buttons
+const genreFilterButtons = document.querySelectorAll(".genre-filter-btn");
+genreFilterButtons.forEach(button => {
+    button.addEventListener("click", function() {
+        const genre = button.id.split("-")[1]; //filter-genre
+        genreFilter(genre);
+    });
+});
+
+function genreFilter(bookGenre){
+    const filteredBooks = books.filter(book => book.genres && book.genres.some(genre => genre.includes(bookGenre)));
+    showCards(filteredBooks);
+}
 
 
 
