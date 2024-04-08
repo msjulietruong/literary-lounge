@@ -88,3 +88,15 @@ button {
 button:hover{
     transform: scale(1.1);
 }
+
+.search-wrapper{
+    margin-top: 15px;
+    display: flex;
+    gap: .25rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "American Typewriter";
+}
+
+
+
