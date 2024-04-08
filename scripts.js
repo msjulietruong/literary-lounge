@@ -68,14 +68,14 @@ function sortCoordinator(property, sortFunction) {
 
 //function that returns a string's properties in alphabetical order, used tertiary op
 function alphabeticalSort(property) {
-    return function (a, b) {
+    return (a, b) => {
         return (a[property].toLowerCase() > b[property].toLowerCase()) ? 1 : -1;
     };
 }
 
 //function that returns a number's properties in ascending order
 function numericalSort(property){
-    return function(a, b) {
+    return (a, b) => {
         return a[property] - b[property];
     }
 }
