@@ -69,7 +69,7 @@ const books = [
         genres: ["science fiction", "fantasy fiction", "philosophical fiction"]
     },
     {
-        title: "A Timeless Story: Man's Search for Meaning by V.E.Frankl's Memoir",
+        title: "A Timeless Story: Man's Search for Meaning by V.E. Frankl's Memoir",
         author: "Frankl, Viktor E.",
         rating: 4.37,
         publisher: "",
@@ -485,7 +485,7 @@ const books = [
         dateRead: "",
         imgUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429468490i/157055.jpg",
         opinion: 4,
-        genres: ["fiction", "humor"]
+        genres: ["fiction", "humor", "fantasy"]
     },
     {
         title: "Perks of Being a Wallflower",
