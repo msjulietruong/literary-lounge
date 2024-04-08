@@ -10,21 +10,46 @@
 
 <body>
 <header class="main-header">
-    <h1 class="title">Literary Lounge</h1>
+    <h1 class="title">
+        Literary Lounge
+    </h1>
 </header>
 
 <div id = "static-buttons" >
 
+    <button id = "first-card-popper">
+        Remove First Card!
+    </button>
+    <button id="remove-a-book">
+        Remove A Book By Title
+    </button>
+
     <!-- Buttons for sorting -->
-    <button class = "sort-btn" id = "sort-author"> Author's last name sorted </button>
-    <button class = "sort-btn" id = "sort-rating"> Average GoodReads rating (lowest to highest!) </button>
-    <button class = "sort-btn" id = "sort-opinion"> Worst to Best Books </button>
-    <button class = "sort-btn" id = "sort-publicationYear"> Publication Year </button>
-    <button class = "sort-btn" id = "sort-title"> Titles in Alphabetical Order </button>
+    <button class = "sort-btn" id = "sort-author">
+        Authors Sorted By Last Name!
+    </button>
+    <button class = "sort-btn" id = "sort-rating">
+        Average GoodReads Rating From Highest to Lowest
+    </button>
+    <button class = "sort-btn" id = "sort-opinion">
+        My Personal Best to Worst Books
+    </button>
+    <button class = "sort-btn" id = "sort-publicationYear">
+        Publication Year
+    </button>
+    <button class = "sort-btn" id = "sort-title">
+        Titles in Alphabetical Order
+    </button>
 </div>
+
+<p class = "description">
+    You can search for genres, titles, authors, publishers, and formats!
+</p>
 <!--searchbar -->
 <div class = "search-wrapper">
-    <label for="search"> Search books</label>
+    <label for="search">
+        Search for books
+    </label>
     <input type = "search" id = "search" data-search>
 </div>
 
@@ -43,8 +68,8 @@
     <button id = "quote-generator" onclick="randomQuoteGenerator();">
         Get A Quote!
     </button>
-    <button id = "card-popper" onclick="removeLastCard();">
-        Remove A Card!
+    <button id = "last-card-popper" onclick="removeLastCard();">
+        Remove Last Card!
     </button>
 </div>
 </body>
