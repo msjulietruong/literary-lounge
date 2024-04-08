@@ -11,7 +11,7 @@ const books = [
         originalPublicationYear: 1997,
         imgUrl: "https://m.media-amazon.com/images/I/71y+XnBXm4L._AC_UF1000,1000_QL80_.jpg",
         opinion: 4,
-        genres: ["adventure", "fantasy", "action"]
+        genres: ["adventure", "fantasy", "action", "manga"]
     },
     {
         title: "Red Rising (Red Rising Saga, #1)",
@@ -518,3 +518,4 @@ const books = [
 ];
 
 export default books;
+
