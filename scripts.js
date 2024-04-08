@@ -11,6 +11,21 @@
 import books from "./books.js";
 import quotes from "./quotes.js";
 
+const userSearch = document.querySelector("[data-search]");
+
+//search bar
+userSearch.addEventListener("input", (e) =>{
+    const keyword = e.target.value.toLowerCase(); // lowercase the search input
+    const filteredBooks = books.filter(book => //filter based on title, author, publisher, format, genre
+        book.title.toLowerCase().includes(keyword) ||
+        book.author.toLowerCase().includes(keyword) ||
+        book.publisher.toLowerCase().includes(keyword) ||
+        book.format.toLowerCase().includes(keyword) ||
+        (book.genres && book.genres.join().toLowerCase().includes(keyword))
+    );
+    showCards(filteredBooks);
+});
+
 // This function adds cards the page to display the data in the array of objects (books!)
 function showCards(filteredBooks) {
     const cardContainer = document.getElementById("card-container");
@@ -22,10 +37,9 @@ function showCards(filteredBooks) {
         const book = booksToDisplay[i];
         const bookImage = document.createElement("img");
         bookImage.src = book.imgUrl;
-        const nextCard = templateCard.cloneNode(true); // Copy the template card
-        editCardContent(nextCard, book, bookImage); // Edit book name and cover image
+        const nextCard = templateCard.cloneNode(true); // Clone the template card and set as true
+        editCardContent(nextCard, book); // Edit book name and cover image
         cardContainer.appendChild(nextCard); // Add new card to the container
-
         if ((i + 1) % 4 === 0) { //provides line spacing format to make book covers only show 4 in a row
             const lineBreak = document.createElement("br");
             cardContainer.appendChild(lineBreak);
@@ -91,19 +105,13 @@ sortButtons.forEach(button => {
         const sortType = button.id.split("-")[1]; //sort-sortType
         switch(sortType){
             case "author":
-                books.sort(alphabeticalSort("author"));
-                break;
             case "title":
-                books.sort(alphabeticalSort("title"));
+                books.sort(alphabeticalSort(sortType));
                 break;
             case "publicationYear":
-                books.sort(numericalSort("publicationYear"));
-                break;
             case "rating":
-                books.sort(numericalSort("rating"));
-                break;
             case "opinion":
-                books.sort(numericalSort("opinion"));
+                books.sort(numericalSort(sortType));
                 break;
         }
         showCards();
@@ -112,20 +120,6 @@ sortButtons.forEach(button => {
 
 document.getElementById("card-popper").addEventListener("click", removeLastCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
-
-// Event listener for all genre filter buttons
-const genreFilterButtons = document.querySelectorAll(".genre-filter-btn");
-genreFilterButtons.forEach(button => {
-    button.addEventListener("click", function() {
-        const genre = button.id.split("-")[1]; //filter-genre
-        genreFilter(genre);
-    });
-});
-
-function genreFilter(bookGenre){
-    const filteredBooks = books.filter(book => book.genres && book.genres.some(genre => genre.includes(bookGenre)));
-    showCards(filteredBooks);
-}
 
 
 
