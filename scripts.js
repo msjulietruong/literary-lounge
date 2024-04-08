@@ -14,15 +14,17 @@ import quotes from "./quotes.js";
 const userSearch = document.querySelector("[data-search]");
 
 //search bar
-userSearch.addEventListener("input", (e) =>{
+userSearch.addEventListener("input", (e) => {
     const keyword = e.target.value.toLowerCase(); // lowercase the search input
-    const filteredBooks = books.filter(book => //filter based on title, author, publisher, format, genre
+    let filteredBooks = books.filter(book => // filter based on title, author, publisher, format, genre
         book.title.toLowerCase().includes(keyword) ||
         book.author.toLowerCase().includes(keyword) ||
         book.publisher.toLowerCase().includes(keyword) ||
         book.format.toLowerCase().includes(keyword) ||
         (book.genres && book.genres.join().toLowerCase().includes(keyword))
     );
+
+    // Show filtered books
     showCards(filteredBooks);
 });
 
@@ -77,6 +79,29 @@ function removeLastCard() {
     showCards();
 }
 
+function removeFirstCard(){
+    if (books.length === 0) {
+        alert("No more cards left to delete!")
+    }
+    books.shift(); //removal of first item in books array
+    showCards();
+}
+
+//function that allows user to remove specific titles of books
+function removeATitle(){
+    if (books.length === 0) {
+        alert("You've deleted all of the books remaining!")
+    }
+    const specificTitle = prompt("Please provide the exact title name of the book you'd like to remove: ").toLowerCase();
+    if (!books.find(book => book.title.toLowerCase() === specificTitle.toLowerCase())) {
+        alert("Book title not found. Please provide EXACT title of book and try again.")
+    }
+    else {
+        const filteredBooks = books.filter(book => book.title.toLowerCase() !== specificTitle);
+        showCards(filteredBooks);
+    }
+}
+
 //function that returns a string's properties in alphabetical order, used tertiary op
 function alphabeticalSort(property) {
     return (a, b) => {
@@ -92,8 +117,8 @@ function numericalSort(property){
 }
 
 function randomQuoteGenerator() {
-    const randomIndex = Math.floor(Math.random() * quotes.length); //generate random index, round down to make it a whole num
-    const randoQuote = quotes[randomIndex];
+    const randoIndex = Math.floor(Math.random() * quotes.length); //generate random index, round down to make it a whole num
+    const randoQuote = quotes[randoIndex];
     const message = `"${randoQuote.quote}" - ${randoQuote.author}`;
     alert(message);
 }
@@ -102,24 +127,29 @@ function randomQuoteGenerator() {
 const sortButtons = document.querySelectorAll(".sort-btn");
 sortButtons.forEach(button => {
     button.addEventListener("click", function() {
-        const sortType = button.id.split("-")[1]; //sort-sortType
+        const sortType = button.id.split("-")[1]; //id name 'sort-sortType', takes sortType only into switch
         switch(sortType){
             case "author":
             case "title":
                 books.sort(alphabeticalSort(sortType));
                 break;
             case "publicationYear":
-            case "rating":
-            case "opinion":
                 books.sort(numericalSort(sortType));
+                break;
+            case "opinion":
+            case "rating":
+                books.sort(numericalSort(sortType));
+                books.reverse();
                 break;
         }
         showCards();
     });
 });
 
-document.getElementById("card-popper").addEventListener("click", removeLastCard);
+document.getElementById("last-card-popper").addEventListener("click", removeLastCard);
+document.getElementById("first-card-popper").addEventListener("click", removeFirstCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
+document.getElementById("remove-a-book").addEventListener("click", removeATitle);
 
 
 
