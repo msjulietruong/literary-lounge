@@ -67,6 +67,9 @@ function editCardContent(card, newBook) {
 
     const cardPoint2 = card.querySelector("li:nth-child(2)");
     cardPoint2.textContent = "Personal Rating: " + newBook.opinion;
+
+    const cardPoint3 = card.querySelector("li:nth-child(3)");
+    cardPoint3.textContent = "Genres: " + newBook.genres;
 }
 
 // loads books array of objects automatically when user goes on page
