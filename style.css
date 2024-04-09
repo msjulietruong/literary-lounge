@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* provides a way for cards to stay within one container */
+    overflow-y: auto;
     margin: 20px;
     width: 100%; /* doesn't stretch out the page */
     max-width: 1200px;
