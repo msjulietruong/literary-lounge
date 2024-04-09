@@ -52,6 +52,9 @@ function showCards(filteredBooks) {
 function editCardContent(card, newBook) {
     card.style.display = "block";
 
+    const cardDesc = card.querySelector(".book-description");
+    cardDesc.innerText = newBook.description + " - " + newBook.descriptionSource;
+
     const cardHeader = card.querySelector("h2");
     cardHeader.textContent = newBook.title;
 
@@ -150,8 +153,3 @@ document.getElementById("last-card-popper").addEventListener("click", removeLast
 document.getElementById("first-card-popper").addEventListener("click", removeFirstCard);
 document.getElementById("quote-generator").addEventListener("click", randomQuoteGenerator);
 document.getElementById("remove-a-book").addEventListener("click", removeATitle);
-
-
-
-
-
