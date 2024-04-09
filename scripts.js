@@ -16,11 +16,10 @@ const userSearch = document.querySelector("[data-search]");
 //search bar
 userSearch.addEventListener("input", (e) => {
     const keyword = e.target.value.toLowerCase(); // lowercase the search input
-    let filteredBooks = books.filter(book => // filter based on title, author, publisher, format, genre
+    let filteredBooks = books.filter(book => // filter based on title, author, publisher, genre
         book.title.toLowerCase().includes(keyword) ||
         book.author.toLowerCase().includes(keyword) ||
         book.publisher.toLowerCase().includes(keyword) ||
-        book.format.toLowerCase().includes(keyword) ||
         (book.genres && book.genres.join().toLowerCase().includes(keyword))
     );
 
