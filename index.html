@@ -13,9 +13,9 @@
     <h1 class="title">
         Literary Lounge
     </h1>
-</header>
+ </header>
 
-<div id = "static-buttons" >
+<div id = "button-container" >
 
     <button id = "first-card-popper">
         Remove First Card!
@@ -63,20 +63,33 @@
 <div class="card" style="display: none;">
     <div class="card-content">
         <h2>Book Title</h2>
-        <img src="" alt="Book Cover Art">
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+        <div class ="flip-box-front">
+        <img class = "image-flip" src="" alt="Book Cover Art">
+            </div>
+        <div class ="flip-box-back">
+            <p class = "book-description"> </p>
+        </div>
+            </div>
+        </div>
     </div>
+    <ul>
+    <li></li>
+    <li></li>
+</ul>
 </div>
+
 <div class="footer">
     <p class = "description">
         Edited the starter code given from Snap Engineering Academy's project assessment. Revisions to the starter
         code were made by
     </p>
     <a class = "description" href="https://github.com/msjulietruong" target="_blank">  <br> Julie Truong</a>
+    <a class = "description" href="https://www.freepik.com/free-vector/watercolor-galaxy-background-with-stars_22379952.htm#fromView=search&page=1&position=8&uuid=c352babe-cbd6-4676-bc12-1c6ff98a5986">Background Image by freepik</a>
 </div>
+
 </body>
 
 </html>
