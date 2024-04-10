@@ -16,7 +16,7 @@ body {
     font-size: 8em;
     font-family: "American Typewriter";
     font-weight: normal;
-    color: #9a6bca;
+    color: #F6E58D;
 }
 
 #card-container {
@@ -35,13 +35,13 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box; /* padding and border implemented to reflect element's total width and height */
-    margin: 5px;
+    margin: auto;
 }
 
 .card-content {
     padding: 20px;
     font-family: "American Typewriter";
-    color: #3e3385;
+    color: #dee1b0;
 }
 
 .card-content h2 {
@@ -82,7 +82,7 @@ button {
     height: 40px;
     left: 10px;
     border-radius: 10px;
-    color: #473b72;
+    color: #dee1b0;
     font-size: 15px;
     cursor: pointer;
     font-family: "American Typewriter";
@@ -101,7 +101,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     font-family: "American Typewriter";
-    color: #473b72;
+    color: #dee1b0;
 }
 
 .description{
@@ -109,12 +109,12 @@ button:hover{
     justify-content: center;
     align-items: center;
     display: flex;
-    color: #473b72;
+    color: #dee1b0;
 }
 
 ul{
     font-family: "American Typewriter";
-    color: #473b72;
+    color: #dee1b0;
 }
 
 .flip-box {
