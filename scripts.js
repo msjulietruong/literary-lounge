@@ -41,10 +41,10 @@ function showCards(filteredBooks) {
         const nextCard = templateCard.cloneNode(true); // Clone the template card and set as true
         editCardContent(nextCard, book); // Edit book name and cover image
         cardContainer.appendChild(nextCard); // Add new card to the container
-       /* if ((i + 1) % 4 === 0) { //provides line spacing format to make book covers only show 4 in a row
+        if ((i + 1) % 4 === 0) { //provides line spacing format to make book covers only show 4 in a row
             const lineBreak = document.createElement("br");
             cardContainer.appendChild(lineBreak);
-        }*/
+        }
     }
 }
 
