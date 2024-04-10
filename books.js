@@ -88,7 +88,7 @@ const books = [
         imgUrl: "https://m.media-amazon.com/images/I/71KcUgYanhL._AC_UF1000,1000_QL80_.jpg",
         opinion: 3,
         genres: ["novel", "romance novel", "historical fiction"],
-        description: `"Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job."`,
+        description: `"Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now?"`,
         descriptionSource: "GoodReads"
     },
     {
