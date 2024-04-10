@@ -38,6 +38,10 @@ body {
     margin: auto;
 }
 
+.card.full-width {
+    width: calc(100% - 20px); /* Subtract margin from total width */
+}
+
 .card-content {
     padding: 20px;
     font-family: "American Typewriter";
